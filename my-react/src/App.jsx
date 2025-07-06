@@ -1,6 +1,12 @@
-import { Todo } from './Project/Todo/todo'                          
-import './App.css'
+import Card from './Project/Card/Card.jsx'
 
-export const App=()=>{
-  return <section>{<Todo/>} </section>
-};
+function App(){
+  return(
+    <>
+    <Card/>
+    <Card/>
+    <Card/>
+    </>
+  );
+}
+export default App
